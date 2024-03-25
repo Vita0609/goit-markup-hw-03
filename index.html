@@ -20,41 +20,42 @@
            Шапка сайта header
         -->
         <header>
-               
-                <nav>
+               <div class="container">
+                <nav class="container-nav">
                     <a href="./index.html" class="header-logo">Web<span class="header-logo-span">Studio</span></a> 
-                   <ul>
+                   <ul class="list-header-nav">
                        <li><a href="./index.html" class="header-nav">Studio</a></li> 
                        <li><a href="" class="header-nav">Portfolio</a></li>
                        <li><a href="" class="header-nav">Contacts</a></li>
                    </ul>
                 </nav>
                 <address class="contacts-header">
-                    <ul> 
+                    <ul class="contacts-address"> 
                        <li><a href="mailto:info@devstudio.com" class="contacts-studio">info@devstudio.com</a></li>
                        <li><a href="tel:+110001111111" class="contacts-studio">+11 (000) 111-11-11</a></li>
                     </ul>
                 </address>
+               </div>
         </header>
     
       <!--
         Все содержимое сайта main 
       -->
-      <main class="main">
-        <!--
-            Первый экран
-        -->
-        <section class="section-main">
+      <main>
+         <section class="section-main">
+          <div class="container">
            <h1 class="main-logo">Effective Solutions for Your Business</h1>
            <button type="button" class="main-button">Order Service</button>
+          </div>
         </section>
         <!--
             Второй экран Advantages
         -->
-             <section class="Advantages">
-                <h2>Advantages</h2>
+             <section>
+                <div  class="container">
+                  <h2 class="visually-hidden">Advantages</h2>
              
-                <ul>
+                 <ul class="advantages-list">
                     <li>
                         <h3 class="advantages-title">Strategy</h3>
                          <p class="advantages-par">Our goal is to identify the business problem to walk away
@@ -81,11 +82,13 @@
                         </p>
                     </li>
                 </ul>
+                </div>
              </section>
         <!--
             Команды Our Team
         -->
         <section class="section-ourteam">
+          <div class="container">
              <h2 class="ourteam-title">Our Team</h2>
                 <ul>
                     <li class="section-list">
@@ -109,10 +112,12 @@
                              <p class="job-title">UI Designer </p>
                     </li>
                 </ul>
+          </div>
         </section>
       
       <!-- Портфолио Our Portfolio -->
         <section>
+          <div class="container">
           <h2 class="portfolio-title">Our Portfolio</h2>
             <ul>
               <li>
@@ -146,6 +151,7 @@
                 <p class="portfolio-content">Marketing</p>
                </li>
              </ul>
+          </div>
         </section>
       </main>
       <!--

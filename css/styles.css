@@ -8,9 +8,23 @@ body {
     }
     ul {
         list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    .container {
+        max-width: 1158px;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-left: auto;
+        margin-right: auto;
     }
 
 /*header*/
+
+.container-nav {
+    display: flex;
+    margin: auto;
+}
    
 .header-logo {
     font-family: "Raleway", sans-serif;
@@ -20,10 +34,19 @@ body {
     letter-spacing: 0.03em;
     font-size: 18px;
     line-height: 1.17;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
  .header-logo-span {
     font-family: "Ralewey", sans-serif;
     color: #2e2f42;
+}
+.list-header-nav {
+    display: flex;
+    gap: 40px;
+    padding-left: 76px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 .header-nav {
     font-weight: 500;
@@ -38,6 +61,12 @@ body {
 }
 .contacts-header {
 font-style: normal;
+display: flex;
+}
+.contacts-address {
+    display: flex;
+    gap: 40px;
+    margin-left: auto;
 }
 .contacts-studio {
     font-weight: 400;
@@ -79,8 +108,22 @@ font-style: normal;
     }
 
     /* advantages */
+    .visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+    }
 
-    
+    .advantages-list {
+        width: ((100% - 3 * 24px) / 4);
+    }
     .advantages-title {
         font-weight: 500;
         font-size: 20px;
