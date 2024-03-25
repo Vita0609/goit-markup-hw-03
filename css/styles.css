@@ -20,10 +20,7 @@ body {
     }
 
 /*header*/
-.header-div {
-    display: flex;
-    align-items: center;
-}
+
 
 .container-nav {
     display: flex;
