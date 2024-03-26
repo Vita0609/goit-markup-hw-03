@@ -28,8 +28,7 @@ body {
 
 .container-nav {
     display: flex;
-    margin: auto;
-}
+    }
    
 .header-logo {
     font-family: "Raleway", sans-serif;
