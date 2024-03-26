@@ -11,7 +11,7 @@ body {
         margin: 0;
         padding: 0;
     }
-    .container header-container {
+    .container {
         max-width: 1158px;
         padding-left: 15px;
         padding-right: 15px;
@@ -27,6 +27,7 @@ body {
 .container-nav {
     display: flex;
     margin-right: auto;
+    align-items: center;
     }
    
 .header-logo {
