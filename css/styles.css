@@ -21,7 +21,10 @@ body {
     }
 
 /*header*/
-
+.header-container {
+    display: flex;
+    align-items: center;
+}
 
 
 .container-nav {
