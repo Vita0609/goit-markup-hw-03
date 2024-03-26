@@ -19,19 +19,23 @@ body {
         margin-right: auto;
         
     }
+    h1, h2, h3, p {
+        margin: 0;
+    }
 
 /*header*/
 .header-container {
     display: flex;
     align-items: center;
+    margin-right: auto;
 }
 
 
 .container-nav {
-    display: auto;
+    display: flex;
     margin-right: auto;
     align-items: center;
-    }
+ }
    
 .header-logo {
     font-family: "Raleway", sans-serif;
