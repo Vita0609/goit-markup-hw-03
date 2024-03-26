@@ -28,7 +28,7 @@ body {
 
 
 .container-nav {
-    display: flex;
+    display: auto;
     margin-right: auto;
     align-items: center;
     }
