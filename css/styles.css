@@ -129,7 +129,9 @@ display: flex;
     height: 56px;
     border: none;
     border-radius: 4px;
+    max-width: 169px;
     }
+
     .main-button:hover,
     .main-button:focus {
         background-color: #404bbf;
