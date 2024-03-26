@@ -154,6 +154,7 @@ display: flex;
 
     .advantages-list {
         width: ((100% - 3 * 24px) / 4);
+        padding: 792 px 156px 2402px 156px;
     }
     .advantages-title {
         font-weight: 500;
@@ -161,8 +162,7 @@ display: flex;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        width: 1128px;
-        height: 104px;;
+        
     }
     .advantages-par {
         font-weight: 400;
