@@ -245,6 +245,7 @@ display: flex;
     color: #4d5ae5;
     display: inline-block;
     margin-bottom: 16px;
+    padding: 0;
 }
 .footer-section {
     background-color: #2e2f42;
@@ -255,5 +256,6 @@ display: flex;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: #f4f4fd;
+    max-width: 264px;
 }
 
