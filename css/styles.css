@@ -236,6 +236,15 @@ display: flex;
 .footer-logo {
     font-family: "Raleway", sans-serif;
     color: #f4f4fd;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+    display: inline-block;
+    margin-bottom: 16px;
 }
 .footer-section {
     background-color: #2e2f42;
