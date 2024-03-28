@@ -155,7 +155,7 @@ display: flex;
     .advantages-list {
         width: ((100% - 3 * 24px) / 4);
         padding: 120px 0;
-        justify-content: flex-end;
+        
 
 
     }
@@ -166,6 +166,7 @@ display: flex;
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding-right: 0;
+        flex-direction: row;
 
         
     }
@@ -176,6 +177,7 @@ display: flex;
         letter-spacing: 0.02em;
         color: #434455;
         margin: 0;
+        flex-direction: row;
     }
 
     /* Our Team */
