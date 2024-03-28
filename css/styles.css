@@ -165,8 +165,8 @@ display: flex;
         line-height: 1.2;
         letter-spacing: 0.02em;
         color: #2e2f42;
-        padding-right: 0;
-        flex-direction: row;
+        margin-bottom: 8px;
+        margin-top: 0;
 
         
     }
@@ -177,7 +177,7 @@ display: flex;
         letter-spacing: 0.02em;
         color: #434455;
         margin: 0;
-        flex-direction: row;
+        
     }
 
     /* Our Team */
