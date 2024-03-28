@@ -154,6 +154,8 @@ display: flex;
 
     .advantages-list {
         width: ((100% - 3 * 24px) / 4);
+        margin-top: 120px;
+        margin-bottom: 120px;
 
     }
     .advantages-title {
@@ -163,6 +165,7 @@ display: flex;
         letter-spacing: 0.02em;
         color: #2e2f42;
         padding-right: 0;
+
         
     }
     .advantages-par {
