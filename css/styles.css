@@ -58,6 +58,9 @@ img {
     margin-left: 0;
     margin-right: 76px;
  }
+ .logo .web {
+    color: #2e2f42;
+ }
 .page-nav {
     display: flex;
     gap: 40px;
