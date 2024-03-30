@@ -23,7 +23,7 @@ ul {
  }
     
 img {
-    display: block;
+    display: flex;
 }
     
 .container {
