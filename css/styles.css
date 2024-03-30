@@ -5,6 +5,25 @@ body {
     font-size: 16px;
     line-height: 1.5;
     }
+
+
+    /* HEADER */
+.page-header {
+     border-bottom: 1px solid #e7e9fc;
+ }
+.header-container {
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+ }
+
+
+    /* ADRESS */ 
 .address {
     font-style: normal;
  }
@@ -188,22 +207,6 @@ padding-left: 15px;
 padding-right: 15px;
 margin: 0 auto;
 }
-
-.page-header {
-border-bottom: 1px solid #e7e9fc;
-}
-
-.header-container {
-display: flex;
-margin: 0 auto;
-justify-content: space-between;
-align-items: center;
-}
-
-.header-nav {
-display: flex;
-align-items: center;
- }
 
  .page-nav {
 display: flex;
