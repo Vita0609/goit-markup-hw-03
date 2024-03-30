@@ -59,6 +59,10 @@ img {
     margin-right: 76px;
     color: #2e2f42;
  }
+ .logo .web {
+    color: #2e2f42;
+    font-family: "Raleway", sans-serif;
+}
 .page-nav {
     display: flex;
     gap: 40px;
